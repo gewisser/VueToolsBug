@@ -1,0 +1,9 @@
+{
+  "printWidth": 181,
+  "pugPrintWidth": 181,
+  "pugSemi": "true",
+  "endOfLine": "auto",
+  "pugSingleQuote": false,
+  "singleQuote": false,
+  "semi": true
+}

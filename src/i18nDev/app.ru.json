@@ -1,0 +1,1083 @@
+{
+  "breadcrumbs": {
+    "all": "Все сервисы",
+    "alls": "Все сервисы"
+  },
+  "Dashboard": {
+    "Welcom": "Добро пожаловать",
+    "Services": "Сервисы",
+    "Invites": {
+      "InvitesForFriends": "Инвайты для ваших друзей",
+      "UpToThreeFriends": "Вы можете пригласить до трех друзей в сервис.",
+      "YourFriendsCanGetBonuses": "Перейдя по ссылке, ваши друзья могут зарегистрироваться и получить 1500 бонусных рублей.",
+      "HowBonusMoneyWorks": "Как работают бонусные деньги?",
+      "LinkToInviteNumber": "Ссылка на инвайт №{number}",
+      "InviteWasGiven": "Вы уже подарили этот инвайт другу",
+      "AdditionalInformation": {
+        "BonusRublesAreConvertedIntoRealMoney": "Бонусные рубли конвертируются в настоящие деньги",
+        "ConvertedAtTheFirstDepositOfMoney": "50% бонусов сконвертируются в рубли при первом вводе денег на Bitbanker",
+        "ConvertedOnTheFirstTrade": "50% бонусов сконвертируются в рубли на вашем счете при первой сделке",
+        "BonusesBurnOut": "Бонусные рубли начинают сгорать через 3 дня после регистрации - по 100 руб. в день",
+        "CloseBtn": "Закрыть"
+      }
+    }
+  },
+  "Routes": {
+    "Exchange": "Покупка и продажа",
+    "Services": "Сервисы"
+  },
+  "validator": {
+    "password_min": "Минимальная длина {field} должна составлять не менее 8 символов, а также требуются прописные, числовые и специальные символы.",
+    "email": "{field} должен быть действительным адресом электронной почты.",
+    "digits": "Поле {field} должно состоять из цифр и содержать {length} символов.",
+    "max": "Поле {field} не может содержать более {length} символов.",
+    "min_value": "Поле {field} должно быть не менее {min}",
+    "required": "{field} является обязательным.",
+    "wallet": "Этот адрес кошелька {value} недействителен",
+    "password": "Минимальная длина пароля не менее 8 символов, а также требуются прописные, числовые и специальные символы.",
+    "confirm": "Подтверждение пароля не совпадает.",
+    "greater_than": "Значение должно быть больше чем {value}",
+    "less_than": "Значение должно быть меньше чем {value}",
+    "no_balance": "Недостаточно средств",
+    "multiplicity": "Значение должно быть кратно {value}",
+    "order_amount": "Недостаточно средств",
+    "order_total": "Недостаточно средств",
+    "order_limit": "Минимум {arg1} {arg2}",
+    "greater_than_or_equals": "Минимальное значение: {value}"
+  },
+  "input": {
+    "name": "Имя",
+    "lastName": "Фамилия",
+    "birthDate": "Дата рождения",
+    "nationality": "Национальность",
+    "country": "Страна",
+    "address": "Адрес"
+  },
+  "button": {
+    "back": "Назад"
+  },
+  "messages": {
+    "TextCopiedToClipboard": "Текст скопирован в буфер обмена"
+  },
+  "kyc": {
+    "notVerified": "Завершите проверку KYC",
+    "pending": "Ожидается подтверждение KYC",
+    "waiting": "Подтверждение KYC отклонено",
+    "approved": "KYC подтвержден",
+    "passport": "Паспорт",
+    "residenceDocument": "Документ, подтверждающий место жительства",
+    "selfie": "Селфи с паспортом"
+  },
+  "components": {
+    "App": {
+      "Bonuses": {
+        "title": "Вам начислен бонус!",
+        "currency": "рублей"
+      },
+      "CoursePairs": {
+        "title": "Курсы валют"
+      },
+      "AccountOperations": {
+        "TopUp": "Пополнить",
+        "Transfers": "Перевести",
+        "Withdraw": "Вывести",
+        "HistoryOperations": "История операций"
+      },
+      "AccountBalanceCard": {
+        "Title": "Баланс",
+        "ShowAll": "Показать все",
+        "Dialog": {
+          "Title": "Мой баланс",
+          "Thead": {
+            "0": "Валюта",
+            "1": "Доступно",
+            "2": "Заблокировано",
+            "3": "Ожидание"
+          }
+        }
+      }
+    },
+    "Auth": {
+      "LoginForm": {
+        "resendCodeButton": "Отправить код еще раз",
+        "verificationEmailSended": "Письмо было успешно выслано на вашу электронную почту:",
+        "emaiLConfirmed": "Ваш адрес электронной почты успешно подтвержден. Теперь вы можете войти в личный кабинет.",
+        "verifyingError": "Произошла ошибка при проверке вашего адреса электронной почты. Возможно, ваш адрес электронной почты уже был зарегистрирован.",
+        "emailField": "Электронная почта",
+        "passwordField": "Пароль",
+        "loginButton": "Войти",
+        "title": "Авторизация",
+        "forgotPassword": "Забыли пароль?"
+      },
+      "RegisterForm": {
+        "title": "Регистрация",
+        "regButton": "Зарегистрироваться",
+        "confirmPassword": "Подтвердите пароль",
+        "confirmPolicy": "Соглашаюсь с ",
+        "privacyPolicy": "Политикой Конфиденциальности",
+        "Terms&Conditions": "Условиями и Правилами",
+        "And": "и",
+        "LegalAge": "подтверждаю, что я достиг совершеннолетия.",
+        "privacyPolicyName": "'политика конфиденциальности'",
+        "receiveInformationMaterials": "Согласен получать информационные материалы",
+        "receiveInformationMaterialsName": "'рассылка информационных материалов'"
+      },
+      "InviteApplyForm": {
+        "title": "Заявка на wait-list",
+        "name": "Ваше имя",
+        "last_name": "Ваша фамилия",
+        "phone": "Номер телефона",
+        "about": "О себе",
+        "social_networks": "Ссылки на соц. сети",
+        "apply": "Отправить"
+      },
+      "RestorePasswordForm": {
+        "WellSendCode": "Мы отправим код подтверждения на вашу электронную почту.",
+        "EmailField": "Электронная почта",
+        "SendButton": "Отправить",
+        "WeSentCode": "Мы отправили код на адрес:",
+        "ProvideCode": "Пожалуйста, введите код и новый пароль для вашей учетной записи.",
+        "PasswordFieldPlacehodler": "Пароль",
+        "PasswordConfirmField": "Подтвердите Пароль",
+        "VerificationField": "Проверочный код",
+        "SendNewPasswordButton": "Отправить",
+        "PasswordRestoreTitle": "Восстановление пароля",
+        "HaveVerificationCode": "У меня уже есть код подтверждения",
+        "CheckSpamFolder": "Если не можете найти письмо с кодом, проверьте папку <strong>Спам</strong>."
+      },
+      "EmailConfirmForm": {
+        "ErrorTitle": "Пользователь не </br> подтвержден",
+        "Title": "Подтверждение пользователя",
+        "CodeLabel": "Мы отправили код на вашу почту:",
+        "CodeEnterLabel": "Введите его, чтобы подтвердить аккаунт",
+        "ResendDelayMessage": "Вы сможете отправить код повторно через 1 минуту.",
+        "ConfirmBtn": "Подтвердить"
+      },
+      "TwoFactorAuthForm": {
+        "GoogleAuthentication": "Google Authentication",
+        "UsedFor": "Используется для вывода средств и изменения настроек безопасности",
+        "HavingTrouble": "Возникли проблемы с вашим Google Authenticator?",
+        "Enable": "Включить",
+        "Disable": "Выключить",
+        "SetUpAuthenticator": "Настройка Google Authenticator",
+        "InstallAuthenticator": "Установите приложение Google Authenticator на свое устройство",
+        "SelectInAppSetupAccount": "В приложении выберите <strong> настроить учетную запись </strong>",
+        "ChooseScanBarcode": "Выберите <strong> сканировать штрих-код </strong>",
+        "CantScanBarcode": "Не можете сканировать штрих-код?",
+        "Close": "Закрыть",
+        "Next": "Дальше",
+        "Back": "Назад",
+        "EnterCode": "Введите код",
+        "EnterCodeRule": "Введите шестизначный код из приложения.",
+        "TwoFARequired": "Это действие требует авторизации 2FA",
+        "Verify": "Подтвердить",
+        "Code": "код",
+        "Done": "Готово",
+        "TapMenu": "1. Нажмите <strong> Меню </strong>, затем <strong> Настроить учетную запись </strong>.",
+        "TapEnterKey": "2. Нажмите <strong> Введите предоставленный ключ </strong>.",
+        "EnterEmail": "3. Введите свой адрес электронной почты и этот ключ:",
+        "TimeBasedIsTurnedOn": "4. Убедитесь, что параметр <strong> По времени </strong> включен,  и нажмите <strong> Добавить </strong> для завершения.",
+        "DoneMessage": "Готово!",
+        "SaveCode": "Мы настоятельно рекомендуем вам записать код на листе бумаги и хранить его в надежном месте. Вы <strong>НЕ СМОЖЕТЕ</strong> его восстановить. Он понадобится вам для доступа к учетной записи.",
+        "YoureAllSet": "Все готово. С этого момента вы будете использовать Google Authenticator для входа в свою учетную запись.",
+        "TwoFactorDisabled": "Двухфакторная аутентификация Google теперь <strong> отключена </strong> в вашей учетной записи Bitbanker."
+      },
+      "TwoFactorAuthInfo": {
+        "GoogleAuthToNewDevice": "Я хочу перенести Google Authenticator на новое устройство. Как я могу это сделать?",
+        "GoogleAuth": "Google Authentication",
+        "SaveCodeOnPaper": "Код, которыйвы должны записать на бумаге.",
+        "Great": "Прекрасно! Просто установите приложение Google Authenticator на новое устройство и используйте код сброса во время настройки.",
+        "IdontHaveResetCode": "2. У меня нет кода сброса Google 2FA.",
+        "RememberPassword": "Мы рекомендуем вам сначала отключить Google Authenticator в своей учетной записи Bitbanker, а затем снова включить его на новом устройстве. Не забудьте на этот раз сохранить код сброса!",
+        "LostResetCode": "Я потерял код Google 2FA, как его вернуть?",
+        "CanAccessDevice": "1. Я могу получить доступ к устройству, настроенному с помощью кода сброса Google 2FA.",
+        "RememberResetCode": "Мы рекомендуем вам сначала отключить Google Authenticator в своей учетной записи Bitbanker, а затем снова включить его на новом устройстве. Не забудьте на этот раз сохранить код сброса!",
+        "CantAccessDevice": "2. Я не могу получить доступ к устройству, которое было настроено с помощью кода сброса Google 2FA.",
+        "PleaseWriteUs": "Пожалуйста, напишите нам на адрес:",
+        "MakeSureTitle": "И не забудьте указать в качестве заголовка: Two Factor Authentication Reset"
+      },
+      "ChangePasswordForm": {
+        "title": "Поменять пароль",
+        "newPasswordField": {
+          "placeholder": "Новый пароль"
+        },
+        "confirmPasswordField": {
+          "placeholder": "Подтвердите пароль"
+        },
+        "changePasswordButton": "Поменять пароль"
+      },
+      "GoogleAuthCodeForm": {
+        "2faRequired": "Это действие требует авторизации 2FA",
+        "enterCode": "Введите шестизначный код, который вы видите в приложении.",
+        "submitButton": "OK",
+        "enterCodeSpan": "Введите код"
+      }
+    },
+    "Account": {
+      "AccountMenuButton": {
+        "Settings": "Настройки",
+        "Help": "Помощь",
+        "Logout": "Выйти",
+        "Admin": "Админ"
+      }
+    },
+    "Acquiring": {
+      "APIInfo": {
+        "createdInvoices": "Выставленные счета",
+        "title_1": "Выставляйте счета на оплату в любой валюте",
+        "title_1_1": "Воспользуйтесь надёжным и простым способом ",
+        "title_1_2": "оплаты на своем сайте",
+        "subtitle_2": "0 % комисии на все входящие платежи*",
+        "subtitle_3": "*Предложение действует до 1 февраля 2022 года",
+        "connectApi": "Подключить API интеграцию",
+        "moreInfoIntegration": "Подробнее о API интеграции"
+      },
+      "NativeInfo": {
+        "createdInvoices": "Выставленные счета",
+        "title_1": "Выставляйте счета на оплату в любой валюте",
+        "moreInfo": "Подробнее о криптоэквайринге"
+      },
+      "InvoiceInfo": {
+        "Number": "Номер",
+        "Whom": "Кому",
+        "Amount": "Сумма",
+        "ReceivedAmount": "Получено",
+        "Paid": "Оплачено",
+        "NotPaid": "Ожидание",
+        "linkBuy": "Ссылка на оплату",
+        "MoreBtn": "Подробнее"
+      }
+    },
+    "dashboard": {
+      "MenuItem": {
+        "developmentTime": "Сервис находится в разработке. Мы сообщим вам о запуске.",
+        "developmentTimeMobile": "Сервис находится в разработке. Заполните форму подписки и мы сообщим вам о запуске."
+      },
+      "UserInvites": {
+        "title_1": "Инвайты для ваших друзей",
+        "title_2": "Вы можете пригласить до трех друзей в сервис.",
+        "title_3": "Перейдя по ссылке, ваши друзья могут зарегистрироваться и получить 1500 бонусных рублей",
+        "copy": "Скопировать",
+        "noInvites": "У вас не осталось инвайтов. Напишите нам, если вы хотите пригласить больше друзей",
+        "bonusConvert": "Бонусные рубли конвертируются в настоящие деньги",
+        "50byInterMoney": "50% бонусов сконвертируются в рубли при первом вводе денег на Bitbanker (от 20 000 рублей или их эквиваленте в другой валюте)",
+        "50byFirstTrade": "50% бонусов сконвертируются в рубли на вашем счете при первой сделке",
+        "destroyBonus": "Бонусные рубли начинают сгорать через 3 дня после регистрации - по 100 руб. в день",
+        "write": "Закрыть",
+        "close": "Закрыть"
+      }
+    },
+    "Credentials": {
+      "saveButton": "Сохранить",
+      "personalData": "Личные данные"
+    },
+    "Exchange": {
+      "OrderBook": {
+        "emptyOrder": "Книга заявок пуста"
+      },
+      "OrderWizard": {
+        "cancelOrder": "Отменить заявку?",
+        "attentionPartCancel": "Внимание! Заявка будет отменена частично. Исполненная часть останется на балансе.",
+        "back": "Назад",
+        "cancelForce": "Все равно отменить"
+      }
+    },
+    "lend": {
+      "ActiveDeposit": {
+        "Title": "Активные вклады",
+        "depositNumber": "Вклад №",
+        "on": "на",
+        "days": "дней",
+        "before": "до",
+        "under": "под",
+        "yearsPercent": "% годовых",
+        "indefinitely": "бессрочно",
+        "accrual": "начисление",
+        "amountDeposit": "Сумма вклада",
+        "annualRate": "Годовая ставка",
+        "dateOpen": "Дата открытия",
+        "depositTerm": "Срок вклада",
+        "monthlyIncome": "Доход в месяц",
+        "nextAccrual": "Следующее начисление",
+        "expires": "Истекает",
+        "expectedIncome": "Ожидаемый доход",
+        "totalAccrued": "Всего начисленно",
+        "closeDeposit": "Закрыть вклад",
+        "closeDepositNumber": "Закрытие вклада №",
+        "sureClose": "Вы действительно хотите закрыть вклад?",
+        "youLost": "Вы потеряете проценты за последний незавершенный период (месяц).",
+        "no": "Нет",
+        "yes": "Да",
+        "close": "Закрыть",
+        "Messages": {
+          "DepositSuccessfullyClosed": "Вклад успешно закрыт"
+        }
+      },
+      "ActiveBorrows": {
+        "Title": "Активные займы",
+        "borrowNumber": "Займ №",
+        "under": "под",
+        "yearsPercent": "% годовых",
+        "amountBorrowOn": "сумма долга на",
+        "repay": "Погасить",
+        "amountBorrow": "Сумма займа",
+        "pledge": "Залог",
+        "annualRate": "Годовая ставка",
+        "dateOpen": "Дата открытия",
+        "percentBorrow": "Проценты по займу на текущий момент",
+        "totalAmount": "Общая сумма к возврату",
+        "debtBalance": "Остаток задолженности",
+        "availableAmount": "Доступная сумма",
+        "repayBorrow": "Погасить займ",
+        "partialClose": "Частично погашен",
+        "close": "Закрыт",
+        "PayoutAmount": "Сумма выплаты"
+      },
+      "NewBorrow": {
+        "borrowOpen": "Займ открыт",
+        "borrowSuccessOpen": "Займ №{number} успешно открыт!",
+        "makeOpenBorrow": "Создать новый займ",
+        "dateClose": "Дата закрытия"
+      },
+      "NewDeposit": {
+        "depositOpen": "Вклад открыт",
+        "depositSuccessOpen": "Вклад №{number} успешно открыт!",
+        "makeOpenDeposit": "Создать новый вклад"
+      }
+    },
+    "layout": {
+      "AppHeaderDesktop": {
+        "helper": "Помощник",
+        "helpDescription": "Поможет разобраться как работает BitBanker"
+      },
+      "DesktopFooter": {
+        "city": "Москва, Москва сити",
+        "address": "Пресненская наб. 12, Запад, 40 этаж",
+        "building": "Пресненская наб. 12",
+        "office": "Запад, 40 этаж",
+        "forContacts": "Для связи",
+        "information": "Информация",
+        "pressKit": "Пресс-кит",
+        "FAQ": "FAQ",
+        "Commissions": "Комиссии",
+        "ourSocial": "Мы в соцсетях",
+        "ForCommunication": "Для связи:"
+      }
+    },
+    "modals": {
+      "WhereYouFrom": {
+        "title": "Откуда вы узнали о Bitbanker?",
+        "subtitle": "Расскажите и мы отправим вам +500 бонусных рублей на счет. Бонусы конвертируются в рубли при вашей первой сделке",
+        "social": "Соцсети",
+        "friends": "Друзья",
+        "other": "Другое",
+        "send": "Отправить",
+        "YourChoice": "Ваш вариант"
+      }
+    },
+    "tours": {
+      "BBTour": {
+        "next": "Далее",
+        "finish": "Завершить"
+      },
+      "ExchangeTour": {
+        "title": "Узнай подробнее о том, как покупать и продавать криптовалюту по лучшей цене без комиссии",
+        "iWant": "Хочу узнать",
+        "OrderBookBuyColumn": "Это список заявок на покупку. Он выкупается сверху вниз по принципу «лучшей цены»",
+        "OrderWizardAmount": "Чтобы купить нужно указать количество и нажать на кнопку «Купить»",
+        "OrderBookSellColumn": "При этом, выкупится заявка с лучшей ценой. Она распологается сверху",
+        "OrderWizardTypeSelector": "Вместо исполнения заявки с лучшей ценой, можем создать свою — с желаемой ценой. Нажмите «Установить цену»",
+        "OrderWizardPrice": "Укажите цену и количество",
+        "OrderWizardSubmitButton": "и нажмите «Купить»",
+        "OrderBookBuyList": "Ваша заявка встала в список. Когда все заявки выше выкупятся, эта заявка будет выполнена",
+        "SupportButton": "Вы всегда можете задать свой вопрос нашей поддержке"
+      }
+    },
+    "wallet": {
+      "CryptoWithdrawCard": {
+        "withdrawConfirmed": "Вывод подтвержден",
+        "withdraw": "вывод",
+        "toAddress": "на адрес",
+        "inProgress": "в обработке",
+        "watchToYouStatus": "Следите за статусом в разделе",
+        "operations": "операции",
+        "makeNewOperation": "Создать новую операцию",
+        "returnBack": "Вернуться к Панели управления крипто активами"
+      },
+      "DepositRequestCard": {
+        "depositConfirmed": "Вывод подтвержден",
+        "operationSuccess": "Ваша операция успешно создана! Обратитесь к кассиру чтобы завершить внесение денег",
+        "code": "Код операции",
+        "copy": "Скопировать",
+        "copyCode": "Скопируйте код операции и предъявите оператору при внесении наличных",
+        "createNewOrder": "Создать новую операцию",
+        "returnToPanelCrypto": "Вернуться к Панели управления крипто активами"
+      },
+      "WithdrawRequestCard": {
+        "withdrawConfirmed": "Вывод подтвержден",
+        "operationSuccess": "Ваша операция успешно создана! Обратитесь к кассиру чтобы завершить снятие",
+        "code": "Код операции",
+        "copy": "Скопировать",
+        "copyCode": "Скопируйте код операции и предъявите оператору при внесении наличных",
+        "createNewOrder": "Создать новую операцию",
+        "returnToPanelCrypto": "Вернуться к Панели управления крипто активами"
+      },
+      "ConnectOperatorHint": "Свяжитесь с оператором для согласования времени визита в чате на сайте.",
+      "OneDayRequestHint": "Созданные заявки действительны в течении 24 часов.",
+      "PreliminaryAgreement": "ВНИМАНИЕ! Просим Вас приходить в офис только по предварительной договоренности."
+    },
+    "Verification": {
+      "kycCheck": "Проверка KYC",
+      "kycVerified": "KYC успешно проверен",
+      "profileFilled": "Профиль заполнен",
+      "uploadImage": "Пожалуйста, загрузите следующие изображения:",
+      "fill": "Пожалуйста, загрузите следующие изображения",
+      "fillProfile": "Чтобы завершить проверку учетной записи, заполните данные своего профиля",
+      "fillProfileButton": "Заполнить профиль",
+      "fileFormat": "Вы можете загрузить только файлы формата: png, jpg, jpeg, heic",
+      "KYCInfoCaption": "Внимание! У нас строгие требования к фотографиям для KYC.",
+      "KYCInfoMessage": "Пожалуйста, прочитайте их. Если вы их не выполните — мы откажем в прохождении KYC",
+      "KYCInfoBtn": "Какие фото для KYC мы принимаем?"
+    },
+    "Filters": {
+      "DateRangeFilter": {
+        "SelectDateRange": "Дата"
+      },
+      "MultipleSelectFilter": {
+        "All": "Все",
+        "SearchCurrencies": "Искать криптовалюты ...",
+        "LoadMore": "Загрузить больше..."
+      }
+    },
+    "KYC": {
+      "AdminKycImage": {
+        "Close": "Закрыть"
+      },
+      "AdminReasonForm": {
+        "Done": "Готово",
+        "ReasonCode": "Код причины",
+        "ReasonMessage": "Сообщение причины"
+      }
+    },
+    "Share": {
+      "title": {
+        "part1": "Поделитесь этой страницей и получайте по",
+        "part2": "300 RUBB за каждого зарегистрировавшегося",
+        "part3": "пользователя"
+      },
+      "description": "И получи до 500 бонусных рублей",
+      "button": "Поделиться в соц. сетях"
+    }
+  },
+  "layouts": {
+    "Admin": {
+      "Terminal": "Вернуться"
+    },
+    "SettingsLayoutDesktop": {
+      "ProfileTitle": "Профиль",
+      "ProfileSubtitle": "Личные данные",
+      "SecurityTitle": "Безопасность",
+      "SecuritySubtitle": "Google аутентификация",
+      "VerificationTitle": "Проверка",
+      "VerificationSubtitle": "Верификация",
+      "AccountSettings": "Настройки аккаунта",
+      "API": "API",
+      "ApiIntegration": "API интеграция"
+    },
+    "AdminInvitesDesktop": {
+      "list": "Список заявок",
+      "getInvite": "Выдать инвайт"
+    }
+  },
+  "router": {
+    "admin": {
+      "index": "Индекс",
+      "ledger": "История операций",
+      "kyc": "KYC",
+      "operator": "Оператор",
+      "bonus": "Бонусы",
+      "invite": "Инвайты",
+      "emails": "E-Mails",
+      "analytics": "Analytics",
+      "withdrawals": "Ручной вывод",
+      "deposits": "Вклады",
+      "borrows": "Займы",
+      "utils": "Параметры"
+    },
+    "dashboard": "Виджеты",
+    "ledger": "История операций",
+    "markets": "Торговля"
+  },
+  "views": {
+    "DevelopmentDialog": {
+      "ServiceInDevelopment": "Сервис в разработке",
+      "ReferenceInformation": "Но вы можете узнать о том, как он будет работать, на промо-странице или задать нам вопрос.",
+      "MoreAboutService": "Подробнее о сервисе",
+      "AskAQuestion": "Задать вопрос"
+    },
+    "Admin": {
+      "AdminIndex": {
+        "AdminIndex": "Индекс администратора"
+      },
+      "AdminKYC": {
+        "KYCAdmin": "Администратор KYC",
+        "SearchUsers": "Найти пользователя ...",
+        "Email": "Электронная почта",
+        "FirstName": "Имя",
+        "LastName": "Фамилия",
+        "CreateReason": "Создать причину",
+        "NotVerified": "Не подтвержден",
+        "Pending": "В обработке",
+        "WaitingAction": "В ожидании действий",
+        "Approve": "Утвердить",
+        "KYCHistory": "KYC История",
+        "KYCHistoryTable": {
+          "Date": "Дата",
+          "Admin": "Администратор",
+          "Old": "Старый статус",
+          "New": "Новый статус",
+          "Reason": "Причина"
+        },
+        "NoHistory": "Нет записей в истории ...",
+        "NoUsers": "Пользователи не найдены..."
+      },
+      "Operator": {
+        "OperatorsPanel": "Панель оператора",
+        "Operator": "Оператор",
+        "CreateOperation": "Создать новую операцию",
+        "EnterOperationCode": "Введите код операции",
+        "EnterVerificationCode": "Введите код подтверждения",
+        "SendVerificationCode": "Отправить код подтверждения",
+        "VerificationCodeSent": "Код подтверждения отправлен",
+        "CompleteOperation": "Завершить операцию",
+        "CheckOperation": "Проверить операцию",
+        "SendVerificationCodeAgain": "Отправить код ещё раз",
+        "Account": "Аккаунт",
+        "Name": "Имя",
+        "Passport": "Паспорт",
+        "OperationType": "Тип операции",
+        "Currency": "Валюта",
+        "Amount": "Сумма",
+        "Deposit": "Ввод",
+        "Withdraw": "Вывод",
+        "CreatedSuccessfully": "Операция создана успешно",
+        "InvalidOperatorCode": "Не верный код подтверждения",
+        "InvalidRequestCode": "Не верный код операции"
+      },
+      "Bonus": {
+        "Email": "Email",
+        "Amount": "Сумма",
+        "AddBonus": "Начислить бонус"
+      },
+      "Analytics": {
+        "Title": "Аналитика по финансам",
+        "deposits": "Внесено",
+        "withdrawals": "Выведено",
+        "limit_orders": "Поставлено лимит",
+        "active_limit_orders": "Незавершено лимит",
+        "market_orders": "Маркет ордеров",
+        "invoices": "Выставлено инвойсов",
+        "payed_invoices": "Оплачено инвойсов",
+        "lendings": "Размещено в займ",
+        "borrowings": "Взято в займы",
+        "date": "Показатель/дата",
+        "today": "Сегодня операций/сумма",
+        "7days": "Среднее 7 дней операций/сумма",
+        "21days": "Среднее 21 день операций/сумма",
+        "yesterday": "Вчера операций/сумма"
+      }
+    },
+    "Acquiring": {
+      "Title": "Криптоэквайринг",
+      "Tabs": {
+        "orders": "Счета",
+        "api": "API Интеграция"
+      },
+      "Invoices": {
+        "CreateInvoice": "Создать счёт",
+        "SumAmount": "Всего получено"
+      },
+      "InvoiceCreate": {
+        "LanguageInvoice": "Язык счёта",
+        "NameCompany": "Ваше имя или название вашей компании",
+        "Name": "Название или имя",
+        "ExampleNameCompany": "Например: My Design Inc.",
+        "Whom": "Кому",
+        "EmailWhom": "Почта получателя счёта",
+        "Description": "Опишите в свободной форме вид работ",
+        "ExampleDescription": "Например: Разработка стиля",
+        "targetInvoice": "Назначение платежа",
+        "SumAmount": "Сумма перевода",
+        "Amount": "Сумма",
+        "CurrenciesCanPaid": "Можно оплатить в",
+        "Currencies": "Валюта оплаты",
+        "PaidBefore": "Оплатить до",
+        "CreateInvoice": "Создать счёт",
+        "AutomaticallyConvertTo": "Автоматическая конвертация",
+        "AutomaticallyConvertToVariants": {
+          "NotConvert": "Не конвертировать",
+          "Convert": "Конвертировать"
+        },
+        "InvoiceLanguages": {
+          "ru": "Русский",
+          "en": "Английский"
+        }
+      },
+      "Invoice": {
+        "Invoice": "Счёт",
+        "Date": "Дата",
+        "InvoiceFrom": "Счёт от",
+        "InvoiceFor": "Счёт для",
+        "Description": "Оплата за",
+        "Amount": "Сумма",
+        "Не оплачено, оплатить до": "Сумма",
+        "Status": "Статус",
+        "Paid": "Оплачено",
+        "NotPaid": "Ожидание",
+        "NotPaidWithDate": "Не оплачено, оплатить до",
+        "NotPaidFullWithDate": "Оплачено частично, оплатить до",
+        "SelectPayment": "Выберите валюту для оплаты счёта",
+        "Address": "Адрес",
+        "CopyAddress": "Скопировать адрес",
+        "MinDeposit": "Минимальная сумма ввода",
+        "SendOnly": "Отправляйте только",
+        "Payment": "Оплачено",
+        "PaymentFrom": "из",
+        "ERC20_only": "(Только ERC20!)",
+        "PaymentWithoutCommission": "Без комиссии при оплате со своего счета в Bitbanker",
+        "AvailableBalance": "Доступный баланс",
+        "PaymentFromAccountBalance": "Оплатить со своего счёта",
+        "RegistrationBitbanker": "Зарегистрируйтесь в Bitbanker",
+        "GetRegistrationBonus": "Получите бонус 2 000 рублей и оплачивайте счета без комисcии"
+      }
+    },
+    "LedgerOperations": {
+      "Title": "Операции",
+      "LedgerOperationsTable": {
+        "Id": "Id",
+        "Date": "Дата",
+        "UserID": "Пользователь",
+        "Type": "Вид операции",
+        "Currency": "Валюта",
+        "Price": "Сумма",
+        "PriceWithdraw": "cумма вывода:",
+        "PriceForRecieve": "к получению:",
+        "Fee": "Комиссия",
+        "Status": "Статус",
+        "TransactionInfo": "Информация о транзакции",
+        "LoadingText": "Загрузка... Пожалуйста, подождите",
+        "EmptyList": "Операций не найдено",
+        "Actions": "Действия",
+        "Trades": "Курс (количество)",
+        "OrderFilled": "Заполнено",
+        "OrderPrice": "Цена",
+        "Img_passport": "Паспорт",
+        "Img_residence": "Прописка",
+        "Img_selfie": "Селфи"
+      },
+      "LedgerOperationStatuses": {
+        "Opened": "Открытый",
+        "Pending": "В обработке",
+        "Cancelled": "Отменен",
+        "Expired": "Истекший",
+        "Completed": "Выполнен",
+        "PartiallyFilled": "Частично выполнен",
+        "NoStatus": "Нет статуса"
+      },
+      "LedgerOperationMobile": {
+        "ShowMore": "Показать еще",
+        "Approve": "Подтвердить",
+        "CloseMobileFilter": "Закрыть",
+        "MobileFilters": {
+          "currencies": {
+            "0": "Валюта",
+            "1": "Валюты",
+            "2": "Валюты"
+          }
+        }
+      },
+      "Filters": {
+        "button": "Фильтр",
+        "currencies": {
+          "0": "Криптовалюта",
+          "1": "Криптовалюты",
+          "2": "Криптовалюты"
+        },
+        "operations": {
+          "0": "Операция",
+          "1": "Операции",
+          "2": "Операции"
+        },
+        "exchanges": {
+          "0": "Криптобиржа",
+          "1": "Криптобиржи",
+          "2": "Криптобиржи"
+        },
+        "status": {
+          "0": "статус",
+          "1": "статуса",
+          "2": "статусы"
+        }
+      },
+      "Messages": {
+        "CancelInfo": "Операция успешно отменена"
+      },
+      "MovementTypes": {
+        "available": "Доступные средства",
+        "pending": "Ожидающий баланс",
+        "blocked": "Заблокированный баланс"
+      },
+      "LedgerOperationTypes": {
+        "Bonus": "Бонус",
+        "Borrow": "Займ",
+        "Deposit": "Пополнение",
+        "Invoice": "Счёт",
+        "Lend": "Вклад",
+        "Order": "Заявка",
+        "Transfer": "Перевод",
+        "Withdraw": "Вывод"
+      },
+      "Cancel": "Отменить"
+    },
+    "Exchange": {
+      "title": "Купить/Продать",
+      "createOrder": "Создать заявку",
+      "editOrder": "Редактировать заявку",
+      "deleteOrder": "Удалить заявку",
+      "sell": "Продажа",
+      "buy": "Покупка",
+      "price": "Ваша цена",
+      "percent": "Процент",
+      "AllBalance": "Весь баланс",
+      "AllBalanceTooltip": "Вы можете совершать другие операции с заблокированными средствами. Ордер будет изменять количество в зависимости от текущего остатка на балансе.",
+      "amount": "Кол-во",
+      "yourOrder": "Ваша заяка",
+      "orderCreatedSuccessfully": "Заявка создана успешно",
+      "orderEditedSuccessfully": "Заявка изменёна успешно",
+      "orderCancelledSuccessfully": "Заявка отменена успешно",
+      "orderEditError": "Ошибка при изменении заявки",
+      "orderCreateError": "Ошибка при создании заявки",
+      "orderCancelError": "Ошибка при отмене заявки",
+      "bestPrice": "Лучшая цена",
+      "amountFull": "Количество",
+      "amount_diff_pct": "Плавающий объем",
+      "total": "Стоимость",
+      "submit": "Подтвердить",
+      "cancel": "Отменить",
+      "cancelConfirmText": "Заявка будет отменена полностью. Вы уверены?",
+      "cancelConfirmTextSomeFilled": "Заявка будет отменена не полностью. Исполненная часть останется на вашем балансе. ",
+      "filledPartly": "Частично исполнена",
+      "balance": "Баланс",
+      "cup": "Стакан",
+      "myOrder": "Мои заявки",
+      "SubmitBtnBuy": "Купить {currency}",
+      "SubmitBtnSell": "Продать {currency}",
+      "Sides": {
+        "buy": "Купить",
+        "sell": "Продать"
+      },
+      "Types": {
+        "market": {
+          "Text": "По лучшей цене",
+          "SuccessMessage": "Ваша заявка успешно выполнена"
+        },
+        "limit": {
+          "Text": "Установить цену",
+          "SuccessMessage": "Ваша заявка успешно создана"
+        }
+      },
+      "OrderCompleted": "Ордер {side} {type} обьемом {amount} выполнен",
+      "bestPriceChangeCurrencySelector": {
+        "0": "Количество",
+        "1": "Стоимость"
+      },
+      "SpendMoney": "Потрачу",
+      "GetMoney": "Получу",
+      "MagicOrder": "Волшебный ордер"
+    },
+    "Investment": {
+      "Title": "Инвестиции",
+      "TitlePart1": "Децентрализованные финансы",
+      "TitlePart2": " — это новый класс программ радикально отличающийся от современных финансов :",
+      "Button": "Посмотреть",
+      "Block1Part1": "Все процессы происходят",
+      "Block1Part2": "децентрализовано",
+      "Block1Part3": "— на узлах сети блокчейн",
+      "Block2Part1": "Все процессы происходят",
+      "Block2Part2": "без посредника",
+      "Block2Part3": "(такого, как современный банк, страховая компания и пр.)",
+      "Block3Part1": "Пользователи идентифицируются только как публичные адреса (кошельки)",
+      "Block4Part1": "Прибыль",
+      "Block4Part2": "от финансовых операций уходит не посреднику, а распределяется между участникам",
+      "BottomBlockPart1": "Сумма размещенная в DeFi проектах превысила 100 млрд долларов.",
+      "BottomBlockPart2": "Многие аналитики приходят к мнению что эра традиционных банков и инвестиционных компаний заканчивается, в финансах наступает эра демократизации.",
+      "BottomBlockPart3": "DeFi — финансы завтрашнего дня.",
+      "BottomBlockPart4": "Bitbanker находит самые безрисковые и прибыльные defi-стратегии и предлагает их для совместных инвестиций.",
+      "AskQuestion": "Задайте вопрос"
+    },
+    "Loans": {
+      "Button": "Посмотреть",
+      "Block1Part1": "Получай рубли или доллары взаймы",
+      "Block1Part2": "под залог",
+      "Block1Part3": "имеющейся криптовалюты",
+      "Block1Description": "Часто наши клиенты используют такие займы в качестве «плеча» для покупки дополнительных сумм криптовалюты",
+      "Block2": "Зарабатывай высокий процент, безопасно размещая средства на долговом рынке",
+      "Block2Description": "Все займы выдаются только под обеспечение, которое может быть реализовано автоматически"
+    },
+    "Auth": {
+      "Login": {
+        "registration": "Зарегистрироваться"
+      },
+      "LoginMobile": {
+        "registration": "Зарегистрироваться",
+        "newUser": "Новый пользователь"
+      },
+      "Register": {
+        "enter": "Войти",
+        "newUser": "Новый пользователь"
+      },
+      "RegisterMobile": {
+        "enter": "Войти",
+        "youHaveAccount": "Уже есть аккаунт"
+      },
+      "RestorePassword": {
+        "enter": "Войти"
+      },
+      "RestorePasswordMobile": {
+        "enter": "Войти"
+      }
+    },
+    "Insurance": {
+      "Title": "Страхование от падения курса",
+      "title": "Воспользуйтесь «страховкой» от падения курса криптовалюты",
+      "title_2": "Мы купим для вас «право» продать вашу криптовалюту в определенный срок по определенной цене (strike)",
+      "title_3": "Например чтобы застраховаться от падения цены на эфир, рассмотрим следующее предложение",
+      "title_4": "Это предложение значит, что вы платите 300 USD сейчас за право продать один эфир по 3600 USD 1 декабря",
+      "examplePrice": "Пусть цена",
+      "youProfit": "Значит наша прибыль",
+      "writeOur": "Напишите нам",
+      "weAskYou": "и мы ответим на любые\n          вопросы",
+      "more": "Узнать больше"
+    },
+    "Ledger": {
+      "cancelOperation": "Отменить операцию",
+      "cancel": "Отмена",
+      "confirm": "Подтвердить",
+      "Transaction": "Транзакция"
+    },
+    "Lend": {
+      "Title": "Займы и вклады",
+      "Borrows": {
+        "TabTitle": "Займы",
+        "title": "Оформите займ",
+        "title_2": "Возьмите взаймы на необходимое вам время",
+        "title_2_1": "Процентная ставка",
+        "title_2_2": "в год. Срок займа - 1 месяц",
+        "currencyPledge": "Валюта обеспечения",
+        "currencyBorrows": "Валюта займа",
+        "amountBorrow": "Желаемая сумма займа",
+        "youRate": "Ваша ставка по займу",
+        "youRate_2": "годовых в USDT. Проценты за пользование прибавляются к общей сумме займа каждый час",
+        "agreementError": "Для оформления займа нужно согласиться с условиями",
+        "agreementSuccess": "Принимаю условия",
+        "borrows": "Занять",
+        "historyOperation": "История операций",
+        "PledgeAmount": "Блокируемый залог",
+        "Terms": {
+          "Title": "Условия",
+          "AnnualPercentage": "Годовой процент",
+          "LoanCollateralRatio": "Коэффициент кредит/залог",
+          "PriceFloor": "Нижний предел цены",
+          "LoanEndDate": "Дата окончания займа",
+          "Description1": "Вы берете займ сроком на 1 (один) месяц под {fee}% годовых. Процент за пользование займом начисляется раз в 24 часа.",
+          "Description2": "Проценты и займ должны быть погашены {dateEnd}. В противном случае, процент по займу будет удвоен и ваш залог будет ликвидирован."
+        },
+        "Messages": {
+          "BorrowSuccessfullyOpened": "Займ успешно открыт"
+        },
+        "NotHavePledge": "У вас недостаточно средств для залога"
+      },
+      "Deposits": {
+        "TabTitle": "Вклады",
+        "title": "Оформите вклад",
+        "title_2_1": "Доходность по вкладам",
+        "title_2_2": "в год с ежемесячным начислением процентов",
+        "currencyDeposit": "Валюта вклада",
+        "depositAmount": "Желаемая сумма вклада",
+        "selectTime": "Выберите срок",
+        "openDeposit": "Открыть вклад",
+        "historyOperation": "История операций",
+        "youDepositRate": "Ваша ставка по вкладу",
+        "inYears": "годовых",
+        "agreementSuccess": "Принимаю условия",
+        "AvailableDuration": {
+          "7days": "7 дней",
+          "14days": "14 дней",
+          "21day": "21 день",
+          "Indefinitely": "Бессрочно"
+        },
+        "Messages": {
+          "DepositSuccessfullyOpened": "Депозит успешно открыт"
+        },
+        "Terms": {
+          "Title": "Условия",
+          "AnnualPercentage": "Годовой процент",
+          "DateEndDeposit": "Дата завершения вклада",
+          "DateDepositIncome": "Дата получения дохода",
+          "DepositIncome": "Доход по вкладу"
+        }
+      }
+    },
+    "Settings": {
+      "ApiIntegration": "API интеграция",
+      "noKeys": "У вас пока нет ключей",
+      "generateKeys": "Сгенерировать ключ",
+      "copy": "Скопировать",
+      "copySecretKey": "Скопируйте и сохраните Secret Key в надежном месте. В целях безопасности мы показываем его только один раз",
+      "showOnce": "В целях безопасности мы показываем Secret Key только один раз",
+      "reGenerate": "Перевыпустить",
+      "enterUrlHock": "Введите url для POST запроса в статусе оплаты",
+      "webhookOptions": "Webhook (опционально)",
+      "save": "Сохранить",
+      "successRegenerate": "Ключи успешно перевыпущены",
+      "successChange": "Webhook успешно изменен"
+    },
+    "Wallet": {
+      "Title": "Пополнение и вывод",
+      "Deposit": {
+        "TabTitle": "Внести",
+        "depositMoney": "Пополнить баланс",
+        "depositMoneyToAddress": "Внести наличные средства можно в нашем офисе по адресу",
+        "address": "Москва, Москва-сити, б. Федерация Запад, 40 этаж",
+        "otherWayDeposit": "Если вас интересует другой способ ввода",
+        "contactAs": "напишите нам",
+        "sendOnly": "Отправляйте на этот адрес только",
+        "lostMoney": "Все другие монеты будут безвозвратно утеряны",
+        "minimalAmountDeposit": "Минимальная сумма для пополнения",
+        "copy": "Скопировать",
+        "returnToCrypto": "Вернуться к Панели управления крипто активами",
+        "amount": "Сумма",
+        "makeOperations": "Создать операцию",
+        "ReceiverTypes": {
+          "PersonallyBring": "Внесу лично я",
+          "AnotherMan": "Другой человек"
+        },
+        "USDTInfo": {
+          "AddressInErc20Format": "Это адрес депозита в формате ERC20. Оправляя на данный адрес по другой сети, вы потеряете свои средства.",
+          "SendOnlyUsdt": "Отправляйте только USDT. Все другие монеты будут безвозвратно утеряны.",
+          "MakeSureNetworkCorrect": "Убедитесь, что сеть верна:"
+        }
+      },
+      "Withdraw": {
+        "TabTitle": "Вывести",
+        "withdrawFromAccount": "Вывод со счёта",
+        "ChooseWithdrawalLabel": "Выберите валюту для вывода",
+        "ChooseNetworkLabel": "Выберите сеть",
+        "UnderstandWhatBEP20": "Я понимаю что такое сеть BEP20 / BSC и подтверждаю вывод.",
+        "BlockchainNetworksNotifiTitle": "Внимание!",
+        "BlockchainNetworksInfoBEP20": "Вы выбрали сеть вывода BEP20 BSC (Binance Smart Chain).\n Удостоверьтесь, что получатель платежа поддерживает BEP20 / BSC! В противном случае ваши средства будут потеряны, и BitBanker не сможет помочь в их восстановлении!",
+        "BlockchainNetworksInfoTRC20": "Вывод производится только на TRC20 адреса блокчейн Tron, начинаются на \"T\", всего 34 символа.",
+        "withdrawMoneyToAddress": "Вывести наличные средства можно в нашем офисе по адресу",
+        "address": "Москва, Москва-сити, б. Федерация Запад, 40 этаж",
+        "otherWayWithdraw": "Если вас интересует другой способ ввода",
+        "contactAs": "напишите нам",
+        "balance": "Баланс",
+        "amount": "Сумма",
+        "addressWallet": "Адрес кошелька",
+        "commission": "Комиссия за вывод",
+        "youGet": "Вы получите на кошелек",
+        "fullAmount": "Будет списано со счёта",
+        "makeOperations": "Создать операцию",
+        "ReceiverTypes": {
+          "PersonallyTake": "Заберу лично я",
+          "AnotherMan": "Другой человек"
+        }
+      },
+      "Transfer": {
+        "TabTitle": "Перевести",
+        "transferAnotherUser": "Перевести другому пользователю Bitbanker",
+        "selectCurrency": "Выберите валюту для перевода",
+        "amountTransfer": "Сумма перевода",
+        "count": "Количество",
+        "minimalValue": "Минимальное значение",
+        "balance": "Баланс",
+        "emailReceiver": "Email получателя",
+        "feeByTransfer": "Комиссия за перевод",
+        "actionTransfer": "Выполнить перевод",
+        "transferAccept": "Перевод подтверждён",
+        "transferSuccess": "Ваша операция прошла успешно",
+        "userEmailReceivedTransfer": "Пользователь с почтой {email} получил ваш перевод",
+        "createNewTransfer": "Создать новую операцию"
+      }
+    },
+    "Icons": {
+      "copyToBuffer": "Кликни на карточку чтобы скопировать название иконки в буфер"
+    },
+    "Nft": {
+      "Title": "NFT консалтинг"
+    },
+    "Сompanies": {
+      "Title": "Компаниям"
+    }
+  },
+  "Currencies": {
+    "Ruble": "Рубль",
+    "RubleGenitiveCase": "Рубли",
+    "Dollar": "Доллар"
+  },
+  "KYCTabs": {
+    "pending": "В обработке",
+    "not_verified": "Не одобрен",
+    "waiting": "Ожидание действий пользователя",
+    "approved": "Одобрен",
+    "declined": "Отклонен"
+  },
+  "Calendar": {
+    "dayOfWeekNames": {
+      "Sunday": "Воскресенье",
+      "Monday": "Понедельник",
+      "Tuesday": "Вторник",
+      "Wednesday": "Среда",
+      "Thursday": "Четверг",
+      "Friday": "Пятница",
+      "Saturday": "Суббота"
+    },
+    "dayOfWeekNamesShort": {
+      "Su": "Вс",
+      "Mo": "Пн",
+      "Tu": "Вт",
+      "We": "Ср",
+      "Tr": "Чт",
+      "Fr": "Пт",
+      "Sa": "Сб"
+    },
+    "monthNames": {
+      "January": "Января",
+      "February": "Февраля",
+      "March": "Марта",
+      "April": "Апреля",
+      "May": "Мая",
+      "June": "Июня",
+      "July": "Июля",
+      "August": "Августа",
+      "September": "Сентября",
+      "October": "Октября",
+      "November": "Ноября",
+      "December": "Декабря"
+    },
+    "monthNamesShort": {
+      "Jan": "Янв",
+      "Feb": "Фев",
+      "Mar": "Mар",
+      "Apr": "Апр",
+      "May": "Май",
+      "Jun": "Июн",
+      "Jul": "Июл",
+      "Aug": "Авг",
+      "Sep": "Сен",
+      "Oct": "Окт",
+      "Nov": "Ноя",
+      "Dec": "Дек"
+    }
+  }
+}

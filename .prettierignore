@@ -1,0 +1,6 @@
+node_modules/**
+src/i18n/**
+dist/
+.quasar/
+.gitlab-ci.yml
+README.md

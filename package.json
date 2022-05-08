@@ -1,0 +1,53 @@
+{
+  "name": "bitbanker-app",
+  "version": "2.0",
+  "description": "A Quasar Project",
+  "productName": "Bitbanker App",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "dev:https": "cross-env DEV_HTTPS=true quasar dev",
+    "build:dev": "quasar build",
+    "build": "cross-env ENV_FILE=production quasar build",
+    "lint": "prettier --check . && eslint . --ext .js,.ts,.vue",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@crowdin/crowdin-api-client": "^1.18.0",
+    "@crowdin/ota-client": "^0.7.0",
+    "@quasar/extras": "^1.13.6",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0",
+    "pinia": "^2.0.14",
+    "quasar": "^2.6.6",
+    "vue": "^3.2.33",
+    "vue-i18n": "^9.1.10",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^3.4.0",
+    "@prettier/plugin-pug": "^2.0.0",
+    "@quasar/app-vite": "^1.0.0-beta.14",
+    "@types/node": "^17.0.31",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "autoprefixer": "^10.4.7",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.6.2",
+    "pug": "^3.0.2",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.4"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
